@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187963DF20BD2FE70069D7EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187963DE20BD2FE70069D7EB /* AppDelegate.m */; };
+		187963E220BD2FE70069D7EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187963E120BD2FE70069D7EB /* ViewController.m */; };
+		187963E520BD2FE70069D7EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187963E320BD2FE70069D7EB /* Main.storyboard */; };
+		187963E720BD2FE70069D7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187963E620BD2FE70069D7EB /* Assets.xcassets */; };
+		187963EA20BD2FE70069D7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187963E820BD2FE70069D7EB /* LaunchScreen.storyboard */; };
+		187963ED20BD2FE70069D7EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187963EC20BD2FE70069D7EB /* main.m */; };
+		187963F720BD2FE70069D7EB /* PayProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187963F620BD2FE70069D7EB /* PayProjectTests.m */; };
+		1879640220BD2FE70069D7EB /* PayProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879640120BD2FE70069D7EB /* PayProjectUITests.m */; };
+		1879641C20BD302D0069D7EB /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879641220BD302D0069D7EB /* libcrypto.a */; };
+		1879641D20BD302D0069D7EB /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1879641320BD302D0069D7EB /* AlipaySDK.bundle */; };
+		1879641E20BD302D0069D7EB /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879641420BD302D0069D7EB /* libssl.a */; };
+		1879641F20BD302D0069D7EB /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879641520BD302D0069D7EB /* AlipaySDK.framework */; };
+		1879642020BD302D0069D7EB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1879641920BD302D0069D7EB /* README.txt */; };
+		1879642120BD302D0069D7EB /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879641B20BD302D0069D7EB /* libWeChatSDK.a */; };
+		1879642420BD30AA0069D7EB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642320BD30AA0069D7EB /* libc++.tbd */; };
+		1879642620BD30B30069D7EB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642520BD30B30069D7EB /* libz.tbd */; };
+		1879642820BD30BC0069D7EB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642720BD30BB0069D7EB /* SystemConfiguration.framework */; };
+		1879642C20BD30CF0069D7EB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642B20BD30CF0069D7EB /* CoreTelephony.framework */; };
+		1879642E20BD30DA0069D7EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642D20BD30DA0069D7EB /* QuartzCore.framework */; };
+		1879643020BD30E00069D7EB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879642F20BD30E00069D7EB /* CoreText.framework */; };
+		1879643220BD30E80069D7EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643120BD30E80069D7EB /* CoreGraphics.framework */; };
+		1879643420BD30F20069D7EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643320BD30F20069D7EB /* UIKit.framework */; };
+		1879643620BD30F90069D7EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643520BD30F90069D7EB /* Foundation.framework */; };
+		1879643820BD31020069D7EB /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643720BD31020069D7EB /* CFNetwork.framework */; };
+		1879643A20BD31100069D7EB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643920BD31100069D7EB /* CoreMotion.framework */; };
+		1879643C20BD31350069D7EB /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1879643B20BD31350069D7EB /* libsqlite3.0.tbd */; };
+		1879644220BD31F40069D7EB /* PayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1879644120BD31F40069D7EB /* PayManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187963F320BD2FE70069D7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187963D220BD2FE70069D7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187963D920BD2FE70069D7EB;
+			remoteInfo = PayProject;
+		};
+		187963FE20BD2FE70069D7EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187963D220BD2FE70069D7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187963D920BD2FE70069D7EB;
+			remoteInfo = PayProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187963DA20BD2FE70069D7EB /* PayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187963DD20BD2FE70069D7EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187963DE20BD2FE70069D7EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187963E020BD2FE70069D7EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187963E120BD2FE70069D7EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187963E420BD2FE70069D7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187963E620BD2FE70069D7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187963E920BD2FE70069D7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187963EB20BD2FE70069D7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187963EC20BD2FE70069D7EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187963F220BD2FE70069D7EB /* PayProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		187963F620BD2FE70069D7EB /* PayProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayProjectTests.m; sourceTree = "<group>"; };
+		187963F820BD2FE70069D7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187963FD20BD2FE70069D7EB /* PayProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1879640120BD2FE70069D7EB /* PayProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayProjectUITests.m; sourceTree = "<group>"; };
+		1879640320BD2FE70069D7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1879641220BD302D0069D7EB /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		1879641320BD302D0069D7EB /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		1879641420BD302D0069D7EB /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		1879641520BD302D0069D7EB /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		1879641720BD302D0069D7EB /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		1879641820BD302D0069D7EB /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		1879641920BD302D0069D7EB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		1879641A20BD302D0069D7EB /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		1879641B20BD302D0069D7EB /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		1879642320BD30AA0069D7EB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1879642520BD30B30069D7EB /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1879642720BD30BB0069D7EB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1879642920BD30C50069D7EB /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1879642B20BD30CF0069D7EB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		1879642D20BD30DA0069D7EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1879642F20BD30E00069D7EB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		1879643120BD30E80069D7EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1879643320BD30F20069D7EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1879643520BD30F90069D7EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1879643720BD31020069D7EB /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1879643920BD31100069D7EB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		1879643B20BD31350069D7EB /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		1879644020BD31F40069D7EB /* PayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayManager.h; sourceTree = "<group>"; };
+		1879644120BD31F40069D7EB /* PayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187963D720BD2FE70069D7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879643C20BD31350069D7EB /* libsqlite3.0.tbd in Frameworks */,
+				1879643A20BD31100069D7EB /* CoreMotion.framework in Frameworks */,
+				1879643820BD31020069D7EB /* CFNetwork.framework in Frameworks */,
+				1879643620BD30F90069D7EB /* Foundation.framework in Frameworks */,
+				1879643420BD30F20069D7EB /* UIKit.framework in Frameworks */,
+				1879643220BD30E80069D7EB /* CoreGraphics.framework in Frameworks */,
+				1879643020BD30E00069D7EB /* CoreText.framework in Frameworks */,
+				1879642E20BD30DA0069D7EB /* QuartzCore.framework in Frameworks */,
+				1879642C20BD30CF0069D7EB /* CoreTelephony.framework in Frameworks */,
+				1879642820BD30BC0069D7EB /* SystemConfiguration.framework in Frameworks */,
+				1879642620BD30B30069D7EB /* libz.tbd in Frameworks */,
+				1879642420BD30AA0069D7EB /* libc++.tbd in Frameworks */,
+				1879641E20BD302D0069D7EB /* libssl.a in Frameworks */,
+				1879641C20BD302D0069D7EB /* libcrypto.a in Frameworks */,
+				1879642120BD302D0069D7EB /* libWeChatSDK.a in Frameworks */,
+				1879641F20BD302D0069D7EB /* AlipaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963EF20BD2FE70069D7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963FA20BD2FE70069D7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187963D120BD2FE70069D7EB = {
+			isa = PBXGroup;
+			children = (
+				187963DC20BD2FE70069D7EB /* PayProject */,
+				187963F520BD2FE70069D7EB /* PayProjectTests */,
+				1879640020BD2FE70069D7EB /* PayProjectUITests */,
+				187963DB20BD2FE70069D7EB /* Products */,
+				1879642220BD30AA0069D7EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187963DB20BD2FE70069D7EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187963DA20BD2FE70069D7EB /* PayProject.app */,
+				187963F220BD2FE70069D7EB /* PayProjectTests.xctest */,
+				187963FD20BD2FE70069D7EB /* PayProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187963DC20BD2FE70069D7EB /* PayProject */ = {
+			isa = PBXGroup;
+			children = (
+				1879641020BD30070069D7EB /* Manager */,
+				1879640F20BD2FEE0069D7EB /* Vendors */,
+				187963DD20BD2FE70069D7EB /* AppDelegate.h */,
+				187963DE20BD2FE70069D7EB /* AppDelegate.m */,
+				187963E020BD2FE70069D7EB /* ViewController.h */,
+				187963E120BD2FE70069D7EB /* ViewController.m */,
+				187963E320BD2FE70069D7EB /* Main.storyboard */,
+				187963E620BD2FE70069D7EB /* Assets.xcassets */,
+				187963E820BD2FE70069D7EB /* LaunchScreen.storyboard */,
+				187963EB20BD2FE70069D7EB /* Info.plist */,
+				187963EC20BD2FE70069D7EB /* main.m */,
+			);
+			path = PayProject;
+			sourceTree = "<group>";
+		};
+		187963F520BD2FE70069D7EB /* PayProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				187963F620BD2FE70069D7EB /* PayProjectTests.m */,
+				187963F820BD2FE70069D7EB /* Info.plist */,
+			);
+			path = PayProjectTests;
+			sourceTree = "<group>";
+		};
+		1879640020BD2FE70069D7EB /* PayProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1879640120BD2FE70069D7EB /* PayProjectUITests.m */,
+				1879640320BD2FE70069D7EB /* Info.plist */,
+			);
+			path = PayProjectUITests;
+			sourceTree = "<group>";
+		};
+		1879640F20BD2FEE0069D7EB /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				1879641120BD302D0069D7EB /* ALiPay */,
+				1879641620BD302D0069D7EB /* WXPaySDK */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1879641020BD30070069D7EB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1879644020BD31F40069D7EB /* PayManager.h */,
+				1879644120BD31F40069D7EB /* PayManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1879641120BD302D0069D7EB /* ALiPay */ = {
+			isa = PBXGroup;
+			children = (
+				1879641220BD302D0069D7EB /* libcrypto.a */,
+				1879641320BD302D0069D7EB /* AlipaySDK.bundle */,
+				1879641420BD302D0069D7EB /* libssl.a */,
+				1879641520BD302D0069D7EB /* AlipaySDK.framework */,
+			);
+			path = ALiPay;
+			sourceTree = "<group>";
+		};
+		1879641620BD302D0069D7EB /* WXPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				1879641720BD302D0069D7EB /* WXApi.h */,
+				1879641820BD302D0069D7EB /* WXApiObject.h */,
+				1879641920BD302D0069D7EB /* README.txt */,
+				1879641A20BD302D0069D7EB /* WechatAuthSDK.h */,
+				1879641B20BD302D0069D7EB /* libWeChatSDK.a */,
+			);
+			path = WXPaySDK;
+			sourceTree = "<group>";
+		};
+		1879642220BD30AA0069D7EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1879643B20BD31350069D7EB /* libsqlite3.0.tbd */,
+				1879643920BD31100069D7EB /* CoreMotion.framework */,
+				1879643720BD31020069D7EB /* CFNetwork.framework */,
+				1879643520BD30F90069D7EB /* Foundation.framework */,
+				1879643320BD30F20069D7EB /* UIKit.framework */,
+				1879643120BD30E80069D7EB /* CoreGraphics.framework */,
+				1879642F20BD30E00069D7EB /* CoreText.framework */,
+				1879642D20BD30DA0069D7EB /* QuartzCore.framework */,
+				1879642B20BD30CF0069D7EB /* CoreTelephony.framework */,
+				1879642920BD30C50069D7EB /* CoreFoundation.framework */,
+				1879642720BD30BB0069D7EB /* SystemConfiguration.framework */,
+				1879642520BD30B30069D7EB /* libz.tbd */,
+				1879642320BD30AA0069D7EB /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187963D920BD2FE70069D7EB /* PayProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879640620BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProject" */;
+			buildPhases = (
+				187963D620BD2FE70069D7EB /* Sources */,
+				187963D720BD2FE70069D7EB /* Frameworks */,
+				187963D820BD2FE70069D7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayProject;
+			productName = PayProject;
+			productReference = 187963DA20BD2FE70069D7EB /* PayProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187963F120BD2FE70069D7EB /* PayProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879640920BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProjectTests" */;
+			buildPhases = (
+				187963EE20BD2FE70069D7EB /* Sources */,
+				187963EF20BD2FE70069D7EB /* Frameworks */,
+				187963F020BD2FE70069D7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187963F420BD2FE70069D7EB /* PBXTargetDependency */,
+			);
+			name = PayProjectTests;
+			productName = PayProjectTests;
+			productReference = 187963F220BD2FE70069D7EB /* PayProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187963FC20BD2FE70069D7EB /* PayProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1879640C20BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProjectUITests" */;
+			buildPhases = (
+				187963F920BD2FE70069D7EB /* Sources */,
+				187963FA20BD2FE70069D7EB /* Frameworks */,
+				187963FB20BD2FE70069D7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187963FF20BD2FE70069D7EB /* PBXTargetDependency */,
+			);
+			name = PayProjectUITests;
+			productName = PayProjectUITests;
+			productReference = 187963FD20BD2FE70069D7EB /* PayProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187963D220BD2FE70069D7EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SLKJ;
+				TargetAttributes = {
+					187963D920BD2FE70069D7EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					187963F120BD2FE70069D7EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187963D920BD2FE70069D7EB;
+					};
+					187963FC20BD2FE70069D7EB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 187963D920BD2FE70069D7EB;
+					};
+				};
+			};
+			buildConfigurationList = 187963D520BD2FE70069D7EB /* Build configuration list for PBXProject "PayProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187963D120BD2FE70069D7EB;
+			productRefGroup = 187963DB20BD2FE70069D7EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187963D920BD2FE70069D7EB /* PayProject */,
+				187963F120BD2FE70069D7EB /* PayProjectTests */,
+				187963FC20BD2FE70069D7EB /* PayProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187963D820BD2FE70069D7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187963EA20BD2FE70069D7EB /* LaunchScreen.storyboard in Resources */,
+				187963E720BD2FE70069D7EB /* Assets.xcassets in Resources */,
+				1879641D20BD302D0069D7EB /* AlipaySDK.bundle in Resources */,
+				187963E520BD2FE70069D7EB /* Main.storyboard in Resources */,
+				1879642020BD302D0069D7EB /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963F020BD2FE70069D7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963FB20BD2FE70069D7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187963D620BD2FE70069D7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879644220BD31F40069D7EB /* PayManager.m in Sources */,
+				187963E220BD2FE70069D7EB /* ViewController.m in Sources */,
+				187963ED20BD2FE70069D7EB /* main.m in Sources */,
+				187963DF20BD2FE70069D7EB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963EE20BD2FE70069D7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187963F720BD2FE70069D7EB /* PayProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187963F920BD2FE70069D7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1879640220BD2FE70069D7EB /* PayProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187963F420BD2FE70069D7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187963D920BD2FE70069D7EB /* PayProject */;
+			targetProxy = 187963F320BD2FE70069D7EB /* PBXContainerItemProxy */;
+		};
+		187963FF20BD2FE70069D7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187963D920BD2FE70069D7EB /* PayProject */;
+			targetProxy = 187963FE20BD2FE70069D7EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187963E320BD2FE70069D7EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187963E420BD2FE70069D7EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187963E820BD2FE70069D7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187963E920BD2FE70069D7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1879640420BD2FE70069D7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1879640520BD2FE70069D7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1879640720BD2FE70069D7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayProject/Vendors/ALiPay",
+				);
+				INFOPLIST_FILE = PayProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayProject/Vendors/ALiPay",
+					"$(PROJECT_DIR)/PayProject/Vendors/WXPaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1879640820BD2FE70069D7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayProject/Vendors/ALiPay",
+				);
+				INFOPLIST_FILE = PayProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PayProject/Vendors/ALiPay",
+					"$(PROJECT_DIR)/PayProject/Vendors/WXPaySDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1879640A20BD2FE70069D7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayProject.app/PayProject";
+			};
+			name = Debug;
+		};
+		1879640B20BD2FE70069D7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayProject.app/PayProject";
+			};
+			name = Release;
+		};
+		1879640D20BD2FE70069D7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayProject;
+			};
+			name = Debug;
+		};
+		1879640E20BD2FE70069D7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PayProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.slkj.PayProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187963D520BD2FE70069D7EB /* Build configuration list for PBXProject "PayProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879640420BD2FE70069D7EB /* Debug */,
+				1879640520BD2FE70069D7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879640620BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879640720BD2FE70069D7EB /* Debug */,
+				1879640820BD2FE70069D7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879640920BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879640A20BD2FE70069D7EB /* Debug */,
+				1879640B20BD2FE70069D7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1879640C20BD2FE70069D7EB /* Build configuration list for PBXNativeTarget "PayProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1879640D20BD2FE70069D7EB /* Debug */,
+				1879640E20BD2FE70069D7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187963D220BD2FE70069D7EB /* Project object */;
+}
